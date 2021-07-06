@@ -1,0 +1,9 @@
+const DATABASE_NANE = '@gameplay';
+
+const COLLECTION_USER = `${DATABASE_NANE}:user`;
+const COLLECTION_MATCHES = `${DATABASE_NANE}:matches`;
+
+export {
+  COLLECTION_USER,
+  COLLECTION_MATCHES,
+};

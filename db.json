@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "title": "Ranqueada",
+      "icon": "./src/assets/ranked.svg"
+    },
+    {
+      "id": "2",
+      "title": "Duelo 1x1",
+      "icon": "./src/assets/duel.svg"
+    },
+    {
+      "id": "3",
+      "title": "Diversão",
+      "icon": "./src/assets/fun.svg"
+    },
+    {
+      "id": "",
+      "title": "Treino",
+      "icon": "./src/assets/training.svg"
+    }
+  ]
+}
+  
