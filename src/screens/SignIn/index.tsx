@@ -6,7 +6,6 @@ import {
   Alert, 
   ActivityIndicator
 } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
 
 import { GradientBackground } from '../../components/GradientBackground'
 import { ButtonSignIn } from '../../components/ButtonSignIn'
@@ -20,11 +19,11 @@ import { theme } from '../../global/theme'
 function SignIn() {
   const { signIn, loading } = useAuth()
 
-  async function handleSignIn() {
+  async function handleSignIn() {   
     try {
       await signIn();    
       
-    } catch (error) {
+    } catch (error: any) {
       Alert.alert(error.message);
       
     }
