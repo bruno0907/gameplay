@@ -60,7 +60,7 @@ And then start the project with
 $ expo start
 ```
 
-Now you will need to create your own Discord server to be able to acquire your auth credentials. After that go to project and add a .env file with the following properties. You can follow the following [Discord Developer Portal](https://discord.com/developers/docs/intro)
+Now you will need to create your Discord credentials @ [Discord Developer Portal](https://discord.com/developers/docs/intro) to be able to acquire your auth credentials. After that go to project and add a .env file with the following properties.
  ```cl
 REDIRECT_URI=
 SCOPE=
