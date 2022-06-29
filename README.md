@@ -4,7 +4,7 @@
 
 This will allow you join create and share or join online game matches of your favorite games with your friends within discord. 
 
-🚀 Made during the #NextLevelWeek event from Rocketseat 🚀
+🚀 This is a study project made during the #NextLevelWeek event from Rocketseat 🚀
 
 ## ✨ Technologies
 
@@ -37,37 +37,12 @@ This will allow you join create and share or join online game matches of your fa
 -   [x] User redirection to match discord server;
 -   [x] Logout function.
 
-
 ## 🔖 Layout
 
 You can view the figma layout [here](https://www.figma.com/community/file/991338130828322960). [Figma](http://figma.com/) account is required.
 
-## Clonning and running the project
-
-In your terminal
-```cl
-$ git clone https://github.com/bruno0907/gameplay
-```
-
-Navigate to the project folder
-```cl
-$ cd gameplay
-```
-Run **yarn** or **npm install** to install all the dependencies after clonning the project.
-
-And then start the project with
-```cl
-$ expo start
-```
-
-Now you will need to create your Discord credentials @ [Discord Developer Portal](https://discord.com/developers/docs/intro) to be able to acquire your auth credentials. After that go to project and add a .env file with the following properties.
- ```cl
-REDIRECT_URI=
-SCOPE=
-RESPONSE_TYPE=
-CLIENT_ID=
-CDN_IMAGE=
-```
+## Observation
+This project is deprecated and no longer has support. 
 
 ## 📄 License
 
