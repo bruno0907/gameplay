@@ -2,10 +2,9 @@
 
 ## 💻 The project
 
-This app will you join and organize online game matches with your friends. 
-You will be able to create groups and host matches using discord for authentication and communication.
+This will allow you join create and share or join online game matches of your favorite games with your friends within discord. 
 
-Made during the #NextLevelWeek event from Rocketseat 🚀
+🚀 Made during the #NextLevelWeek event from Rocketseat 🚀
 
 ## ✨ Technologies
 
@@ -61,7 +60,7 @@ And then start the project with
 $ expo start
 ```
 
-Now you will need to create your own Discord server to be able to acquire your auth credentials. After that go to project and add a .env file with the following properties.
+Now you will need to create your own Discord server to be able to acquire your auth credentials. After that go to project and add a .env file with the following properties. You can follow the following [Discord Developer Portal](https://discord.com/developers/docs/intro)
  ```cl
 REDIRECT_URI=
 SCOPE=
